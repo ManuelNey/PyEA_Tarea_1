@@ -11,7 +11,7 @@ def binario(num):
             while len(lista)<10:
                 lista.append(0)
         else:
-            result=num//2;
+            result=num//2
             resto=num-result*2
             num=int(result)
             lista.append(resto)
