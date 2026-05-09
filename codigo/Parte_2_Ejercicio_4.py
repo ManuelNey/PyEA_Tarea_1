@@ -3,7 +3,7 @@ from Parte_2_Ejercicio_2 import simular_muestra
 from Parte_2_Ejercicio_3 import frecuencia_relativa
 
 def experimento_monedas():
-    cantidades_monedas = [10, 20, 30, 40, 50]
+    cantidades_monedas = [20, 30, 40, 50, 60]
     valores_n = [10**3, 10**4, 10**5, 10**6]
     valor_teorico = 4/7
 
