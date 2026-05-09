@@ -1,10 +1,10 @@
-import random
+import numpy as np
 
-def calcular_x_aleatoriamente():
-    x = 0
-    for i in range(10):
-        es_cara = random.randint(0, 1);
-        x += es_cara / (2**(i+1))
+def simular_X(cantidad_monedas=10):
+    monedas = np.random.randint(0, 2, cantidad_monedas)
+    x = sum(monedas[i] / (2 ** (i + 1)) for i in range(cantidad_monedas))
     return x
 
-print(calcular_x_aleatoriamente())
+
+if __name__ == "__main__":
+    print(simular_X())
