@@ -38,6 +38,7 @@ for lista in posibilidades:
     resultados.add(resultado)
 
 #Resultado del 4:
+print("Ejercicio 4: ")
 print("Cantidad de formas distintas en las que se tiran 10 monedas: ",len(posibilidades))
 print("Resultados posibles: ",resultados)
 print("Cant resultados posibles: ",len(resultados))

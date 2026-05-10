@@ -34,6 +34,8 @@ def frecuencia_relativa(n):
             favorables += 1;
     return favorables/n;
 
+print("==================Primera parte==================")
+
 print(frecuencia_relativa(10**4));
 """
 Siempre da de resultado 0.7 algo o 0.8 algo , ya que pi/4 da aproximadamente 0.785
@@ -47,6 +49,7 @@ Entonces, en teoría , si frecuencia_relativa se aproxima a pi/4, se va a cumpli
 
 Decidimos probarlo 4 veces con valores 10^n distintos para ver si se cumple
 """
+print("==================Segunda parte==================")
 print(frecuencia_relativa(10**3)*4);
 print(frecuencia_relativa(10**4)*4);
 print(frecuencia_relativa(10**5)*4);
